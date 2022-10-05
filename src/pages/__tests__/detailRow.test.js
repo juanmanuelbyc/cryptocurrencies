@@ -2,13 +2,13 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
-import Detail from '../../components/detail';
+import DetailRow from '../../components/detailRow';
 
 const TestDetail = () => {
   const history = createMemoryHistory();
   return (
     <Router location={history.location} navigator={history}>
-      <Detail title="Price" value="99999" />
+      <DetailRow title="Price" value="99999" />
     </Router>
   );
 };
