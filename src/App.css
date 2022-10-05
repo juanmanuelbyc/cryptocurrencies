@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.facade {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.facadeTopSection {
+  display: flex;
+  width: 100%;
+  background-color: #d63271cb;
+  font-family: Lato;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.backHomeButton {
+  text-decoration: none;
+}
+
+.topFacadeIcons{
+  display: flex;
+  gap: 20px;
+}
+
+.settingsIcon,
+.micIcon {
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
+.facadeMiddleSection {
+  display: flex;
+  width: 100%;
+  background-color: #fc549c;
+  padding: 10px;
+}
+
+.rightArrow {
+  align-self: end;
+}
+
+.facadeImageContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facadeImage {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  filter: contrast(40%) sepia(50%);
+  -webkit-filter: contrast(40%) sepia(50%);
+}
+
+.facadeTextsContainer {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.facadeMainText {
+  font-size: 16px;
+}
+
+.facadeBottomSection {
+  display: flex;
+  width: 100%;
+  background-color: #b8265ecb;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.homePageCryptosContainer {
+  display: flex;
+  width: 100%;
+}
+
+.homePageCryptosColumn1,
+.homePageCryptosColumn2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.homePageCryptosColumn1>.individualCryptoContainerHP:nth-child(odd),
+.homePageCryptosColumn2>.individualCryptoContainerHP:nth-child(even) {
+  background-color: #b8265ecb;
+}
+
+.homePageCryptosColumn1>.individualCryptoContainerHP:nth-child(even),
+.homePageCryptosColumn2>.individualCryptoContainerHP:nth-child(odd) {
+  background-color: #a0194dcb;
+}
+
+.individualCryptoContainerHP {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  border: none;
+}
+
+.cryptoImageContainerHP {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cryptoIconHomePage {
+  width: 100px;
+  height: 100px;
+  filter: contrast(30%) sepia(100%) grayscale(100%) invert(1) saturate(3);
+  -webkit-filter: contrast(30%) sepia(100%) grayscale(100%) invert(1) saturate(3);
+}
+
+.cryptoTextsContainerHP {
+  width: 100%;
+  display: inline-block;
+  align-self: flex-end;
+  text-align: end;
+}
+
+.detailCard {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.detailCard:nth-child(odd) {
+  background-color: #a0194dcb;
+}
+
+.detailCard:nth-child(even) {
+  background-color: #b8265ecb;
+}
+
+.detailCardText {
+  font-size: 15px;
+}
