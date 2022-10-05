@@ -1,6 +1,6 @@
 const UPDATE_DETAILS_INDEX = 'details/UPDATE_DETAILS_INDEX';
 
-const initialState = 0;
+const initialState = 1;
 
 const detailsReducer = (state = initialState, action) => {
   switch (action.type) {

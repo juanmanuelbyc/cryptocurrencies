@@ -24,7 +24,7 @@
   display: flex;
   width: 100%;
   background-color: #d63271cb;
-  font-family: Lato;
+  font-family: Lato, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
   font-size: 16px;
   padding: 5px;
@@ -35,7 +35,7 @@
   text-decoration: none;
 }
 
-.topFacadeIcons{
+.topFacadeIcons {
   display: flex;
   gap: 20px;
 }
@@ -103,16 +103,6 @@
   width: 50%;
 }
 
-.homePageCryptosColumn1>.individualCryptoContainerHP:nth-child(odd),
-.homePageCryptosColumn2>.individualCryptoContainerHP:nth-child(even) {
-  background-color: #b8265ecb;
-}
-
-.homePageCryptosColumn1>.individualCryptoContainerHP:nth-child(even),
-.homePageCryptosColumn2>.individualCryptoContainerHP:nth-child(odd) {
-  background-color: #a0194dcb;
-}
-
 .individualCryptoContainerHP {
   width: 100%;
   height: 200px;
@@ -121,6 +111,16 @@
   justify-content: space-between;
   padding: 10px;
   border: none;
+}
+
+.homePageCryptosColumn1 > .individualCryptoContainerHP:nth-child(odd),
+.homePageCryptosColumn2 > .individualCryptoContainerHP:nth-child(even) {
+  background-color: #b8265ecb;
+}
+
+.homePageCryptosColumn1 > .individualCryptoContainerHP:nth-child(even),
+.homePageCryptosColumn2 > .individualCryptoContainerHP:nth-child(odd) {
+  background-color: #a0194dcb;
 }
 
 .cryptoImageContainerHP {

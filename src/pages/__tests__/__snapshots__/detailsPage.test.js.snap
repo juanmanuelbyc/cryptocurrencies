@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details page renders correctly 1`] = `
+<div
+  className="detailsContainer"
+>
+  <div
+    className="facade"
+  >
+    <div
+      className="facadeTopSection"
+    >
+      <a
+        className="backHomeButton"
+        href="/Home"
+        onClick={[Function]}
+      >
+        ←
+      </a>
+      <p
+        className="facadeTopText"
+      >
+        cryptocurrency details
+      </p>
+      <div
+        className="topFacadeIcons"
+      >
+        <img
+          alt="mic Icon"
+          className="micIcon"
+          src="micIcon.png"
+        />
+        <img
+          alt="settings Icon"
+          className="settingsIcon"
+          src="settingsIcon.png"
+        />
+      </div>
+    </div>
+    <div
+      className="facadeMiddleSection"
+    >
+      <div
+        className="facadeImageContainer"
+      >
+        <img
+          alt="dddd"
+          className="facadeImage"
+          src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579"
+        />
+      </div>
+      <div
+        className="facadeTextsContainer"
+      >
+        <h2
+          className="facadeMainText"
+        >
+          BITCOIN
+        </h2>
+      </div>
+    </div>
+    <div
+      className="facadeBottomSection"
+    >
+      <p>
+        UPDATED STATISTICS
+      </p>
+    </div>
+  </div>
+  <div
+    className="detailCard"
+  >
+    <h3
+      className="detailCardText"
+    >
+      current_price
+    </h3>
+    <h3
+      className="detailCardText"
+    >
+      20369
+    </h3>
+  </div>
+</div>
+`;
