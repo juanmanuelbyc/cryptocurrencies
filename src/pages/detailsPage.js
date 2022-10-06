@@ -5,7 +5,7 @@ import DetailRow from '../components/detailRow';
 const DetailsPage = () => {
   const cryptocurrencies = useSelector((state) => state.cryptosReducer);
   const index = useSelector((state) => state.detailsReducer);
-  const cryptocurrency = cryptocurrencies[index - 1];
+  const cryptocurrency = cryptocurrencies[index];
   const data = Object.entries(cryptocurrency).slice(4, 15);
 
   return (
