@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="facade"
+>
+  <div
+    className="facadeTopSection"
+  >
+    <a
+      className="backHomeButton"
+      href="/Home"
+      onClick={[Function]}
+    >
+      ←
+    </a>
+    <p
+      className="facadeTopText"
+    >
+      top text
+    </p>
+    <div
+      className="topFacadeIcons"
+    >
+      <img
+        alt="mic Icon"
+        className="micIcon"
+        src="micIcon.png"
+      />
+      <img
+        alt="settings Icon"
+        className="settingsIcon"
+        src="settingsIcon.png"
+      />
+    </div>
+  </div>
+  <div
+    className="facadeMiddleSection"
+  >
+    <div
+      className="facadeImageContainer"
+    >
+      <img
+        alt="dddd"
+        className="facadeImage"
+        src="../assets/cryptoImage.png"
+      />
+    </div>
+    <div
+      className="facadeTextsContainer"
+    >
+      <h2
+        className="facadeMainText"
+      >
+        main text
+      </h2>
+    </div>
+  </div>
+  <div
+    className="facadeBottomSection"
+  >
+    <p>
+      bottom text
+    </p>
+  </div>
+</div>
+`;
